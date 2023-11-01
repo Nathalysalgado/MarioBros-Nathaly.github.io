@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2? family= Alfa+Slab+One & family= Anton & family= Delicious+Handrawn & family= Lilita+One & display=swap');
+body {
+    color: white; 
+    background-color: red; 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+
+    
+}
+.mi-lista {
+    list-style: none;
+    display: flex;
+    margin: 10;
+    padding: 10;
+    justify-content: center; 
+  }
+  
+  .mi-lista li {
+    margin-right: 15px;
+  }
+  
+  .mi-boton {
+    width: 180px; 
+  }
+  
+.logo{
+    justify-content:left;
+}
+header.nintendo{
+    justify-content:space-between;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }
+ header ul li{
+    margin: 15px;
+
+ }
+ 
+
+ 
+
+
+  
+  
+  
+  img{
+    width: 150px;
+    
+}
+.container h1{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.container h2{
+    font-size: 30px;
+    color: rgb(253, 253, 253);
+}
+.container p{
+    font-size: 24px;
+    color: rgb(238, 232, 232);
+}
+.container img{
+    width: 500px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.carousel {
+    flex: 1;
+}
+
+p{
+    color: rgb(184, 184, 160);
+}
+
+a .mi-boton:hover {
+    background-color: rgb(230, 0, 18); 
+    color: black; 
+    padding: 10px 20px; 
+    border: 1px solid #ccc; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .mi-boton:hover {
+    background-color: red;
+    color: white; 
+  }
+
+
+  .mi-boton {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px; 
+    border: 1px solid #ccc; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .mi-boton:hover {
+    background-color: red; 
+    color: white; 
+  }
+  
+  .mi-lista {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .mi-lista li {
+    margin-bottom: 10px; 
+  }
+  
+  .mi-lista a {
+    text-decoration: none; 
+    display: inline-block; 
+    text-align: center; 
+  }
+  
+  .contenedor-cuadros {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.973);
+    padding: 20px;
+  }
+  
+  .cuadro {
+    width: calc(50% - 20px); 
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cuadro img {
+    max-width: 150%;
+    width: 500px;
+  }
+  
+  .cuadro h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white; 
+  }
+  
+  .cuadro p{
+    font-size: 14px;
+    color: white;
+} 
+  .noticias{
+    color: rgb(239, 245, 245);
+    
+  }
+  .noticias h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
